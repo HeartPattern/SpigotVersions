@@ -16,6 +16,8 @@ data class Version(
     val name: String,
     val description: String,
     val refs: Refs,
+    val information: String? = null,
+    val warning: String? = null,
     val toolsVersion: Int? = null,
     val javaVersions: List<Int>? = null
 )
